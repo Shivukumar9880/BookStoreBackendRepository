@@ -1,0 +1,15 @@
+C:\Users\Shivu\source\repos\Book_Store_Application\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.deps.json
+C:\Users\Shivu\source\repos\Book_Store_Application\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.dll
+C:\Users\Shivu\source\repos\Book_Store_Application\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.pdb
+C:\Users\Shivu\source\repos\Book_Store_Application\RepositoryLayer\bin\Debug\net6.0\ModelLayer.dll
+C:\Users\Shivu\source\repos\Book_Store_Application\RepositoryLayer\bin\Debug\net6.0\ModelLayer.pdb
+C:\Users\Shivu\source\repos\Book_Store_Application\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.csproj.AssemblyReference.cache
+C:\Users\Shivu\source\repos\Book_Store_Application\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shivu\source\repos\Book_Store_Application\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.AssemblyInfoInputs.cache
+C:\Users\Shivu\source\repos\Book_Store_Application\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.AssemblyInfo.cs
+C:\Users\Shivu\source\repos\Book_Store_Application\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.csproj.CoreCompileInputs.cache
+C:\Users\Shivu\source\repos\Book_Store_Application\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.csproj.CopyComplete
+C:\Users\Shivu\source\repos\Book_Store_Application\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.dll
+C:\Users\Shivu\source\repos\Book_Store_Application\RepositoryLayer\obj\Debug\net6.0\refint\RepositoryLayer.dll
+C:\Users\Shivu\source\repos\Book_Store_Application\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.pdb
+C:\Users\Shivu\source\repos\Book_Store_Application\RepositoryLayer\obj\Debug\net6.0\ref\RepositoryLayer.dll
