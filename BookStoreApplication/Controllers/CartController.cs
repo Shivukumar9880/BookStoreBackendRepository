@@ -81,6 +81,23 @@ namespace BookStoreApplication.Controllers
             }
         }
 
+        [HttpDelete("DeletefromCart")]
+        public IActionResult DeleteCartItem( int bookId)
+        {
+            try
+            {
+                long userId = Convert.ToInt64(User.Claims.FirstOrDefault(x => x.Type == "UserId").Value);
+                _cartBusiness.DeleteBook(bookId, userId);
+
+
+                return Ok(new { success = true, message = "delete from cart" });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { success = false, message = "deleted from the cart", data = ex.Message });
+            }
+        }
+
 
     }
 }

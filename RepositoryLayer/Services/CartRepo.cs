@@ -43,6 +43,7 @@ namespace RepositoryLayer.Services
             }
         }
 
+      
 
         public List<BookResponse> GetCartBooks(long userId)
         {
@@ -104,6 +105,36 @@ namespace RepositoryLayer.Services
                 {
                     throw new Exception("User with given book not found");
                 }
+            }
+        }
+
+
+        public void DeleteBook(int bookId, long userId)
+        {
+
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    conn.Open();
+                    SqlCommand cmd = new SqlCommand("delete_from_cart", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@userId", userId);
+                    cmd.Parameters.AddWithValue("@bookId", bookId);
+                    //cmd.Parameters.AddWithValue("@quantity", cartRequest.quantity);
+                    //SqlParameter cartId = new SqlParameter("@cartId", SqlDbType.Int);
+                    //cartId.Direction = ParameterDirection.Output;
+                    //cmd.Parameters.Add(cartId);
+                    cmd.ExecuteNonQuery();
+                  
+                }
+            }
+            catch (SqlException ex)
+            {
+                // Handle the exception appropriately, e.g., log the error or notify the user
+                Console.WriteLine("Error: " + ex.Message);
+                // Return an empty list or null to indicate the failure
+               throw new Exception(ex.Message);
             }
         }
     }

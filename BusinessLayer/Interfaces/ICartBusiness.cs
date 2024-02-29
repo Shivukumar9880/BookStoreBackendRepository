@@ -14,6 +14,8 @@ namespace BusinessLayer.Interfaces
         public List<BookResponse> GetCartBooks(long userId);
         public double GetPriceInCart(long userId);
         public void UpdateBookQuantity(long userId, QuantityUpdateRequest req);
+
+        public void DeleteBook(int bookId,long userId);
     }
 
 

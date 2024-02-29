@@ -51,3 +51,4 @@ C:\Users\Shivu\source\repos\Book_Store_Application\BookStoreApplication\bin\Debu
 C:\Users\Shivu\source\repos\Book_Store_Application\BookStoreApplication\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Shivu\source\repos\Book_Store_Application\BookStoreApplication\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Shivu\source\repos\Book_Store_Application\BookStoreApplication\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Shivu\source\repos\Book_Store_Application\BookStoreApplication\obj\Debug\net6.0\BookStoreApplication.sourcelink.json

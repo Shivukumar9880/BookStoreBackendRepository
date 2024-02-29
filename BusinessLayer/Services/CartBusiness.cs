@@ -22,6 +22,8 @@ namespace BusinessLayer.Services
             return _cartRepo.AddToCart(cartRequest, userId);
         }
 
+     
+
         public List<BookResponse> GetCartBooks(long userId)
         {
             return _cartRepo.GetCartBooks(userId);
@@ -34,6 +36,11 @@ namespace BusinessLayer.Services
         public void UpdateBookQuantity(long userId, QuantityUpdateRequest req)
         {
             _cartRepo.UpdateBookQuantity(userId, req);
+        }
+
+        public void DeleteBook(int bookId, long userId)
+        {
+           _cartRepo.DeleteBook(bookId, userId);
         }
     }
 }

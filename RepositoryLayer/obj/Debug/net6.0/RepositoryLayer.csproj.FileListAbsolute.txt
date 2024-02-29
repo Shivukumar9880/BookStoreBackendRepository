@@ -13,3 +13,4 @@ C:\Users\Shivu\source\repos\Book_Store_Application\RepositoryLayer\obj\Debug\net
 C:\Users\Shivu\source\repos\Book_Store_Application\RepositoryLayer\obj\Debug\net6.0\refint\RepositoryLayer.dll
 C:\Users\Shivu\source\repos\Book_Store_Application\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.pdb
 C:\Users\Shivu\source\repos\Book_Store_Application\RepositoryLayer\obj\Debug\net6.0\ref\RepositoryLayer.dll
+C:\Users\Shivu\source\repos\Book_Store_Application\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.sourcelink.json
